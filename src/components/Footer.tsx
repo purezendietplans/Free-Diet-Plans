@@ -467,51 +467,43 @@ export default function Footer() {
           </div>
 
           {/* Certifications */}
-          <div>
+          <div className="lg:col-span-3">
             <p
               className="text-xs md:text-sm mb-4 font-semibold"
               style={{ fontFamily: "Open Sans" }}
             >
               CIN: U21000MH2024PTC428351
             </p>
-            <div className="flex items-center">
-              {/* <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-white/10 flex items-center justify-center"> */}
+            <div className="flex items-center gap-2 flex-wrap">
               <img
                 src="https://cdn.shopify.com/s/files/1/0886/6532/5865/files/certification-icon-3_ca816917-03ee-42d0-91c8-96509589754d.webp"
                 alt="GMP"
-                className="w-full h-full object-contain pr-1"
+                className="w-16 h-16 md:w-20 md:h-20 object-contain"
               />
-              {/* </div> */}
-              {/* <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-white/10 flex items-center justify-center"> */}
               <img
                 src="https://cdn.shopify.com/s/files/1/0886/6532/5865/files/certification-icon-4_8d33874d-5a9b-4583-83cd-4cbedb150816.webp"
                 alt="HACCP"
-                className="w-full h-full object-contain p-1 "
+                className="w-16 h-16 md:w-20 md:h-20 object-contain"
               />
-              {/* </div> */}
-              {/* <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-white/10 flex items-center justify-center"> */}
               <img
                 src="https://cdn.shopify.com/s/files/1/0886/6532/5865/files/certification-icon-1_53164c85-8e95-4eda-ba3d-2b4d79704d71.webp"
                 alt="ISO"
-                className="w-full h-full object-contain p-1 "
+                className="w-16 h-16 md:w-20 md:h-20 object-contain"
               />
-              {/* </div> */}
-              {/* <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-white/10 flex items-center justify-center"> */}
               <img
                 src="https://cdn.shopify.com/s/files/1/0886/6532/5865/files/certification-icon-2_1fb8b786-2f8d-453f-a78e-c101576dba2d.webp"
                 alt="USDA"
-                className="w-full h-full object-contain p-1 "
+                className="w-16 h-16 md:w-20 md:h-20 object-contain"
               />
-              {/* </div> */}
-              {/* <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-white/10 flex items-center justify-center"> */}
               <img
                 src="https://cdn.shopify.com/s/files/1/0886/6532/5865/files/certification-icon-5_3c83c29e-b704-4e20-a966-16c405521820.webp"
                 alt="FSSAI"
-                className="w-full h-full object-contain p-1"
+                className="w-16 h-16 md:w-20 md:h-20 object-contain"
               />
-              {/* </div> */}
             </div>
           </div>
+
+
         </div>
       </div>
 
