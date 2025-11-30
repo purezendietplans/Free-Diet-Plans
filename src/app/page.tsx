@@ -560,7 +560,7 @@ export default function HomePage() {
                     ) : (
                       <>
                         <Plus className="h-4 w-4 mr-1" />
-                        Select Now
+                        Add to Cart
                       </>
                     )}
                   </Button>
