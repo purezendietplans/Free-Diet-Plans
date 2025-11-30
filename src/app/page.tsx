@@ -272,8 +272,8 @@ import { toast } from "sonner";
 
 const CACHE_KEY = "dietPlans_cache";
 
-// Cache expiry set to 24 hours
-const CACHE_EXPIRY = 24 * 60 * 60 * 1000; 
+// Cache expiry set to 5 minutes
+const CACHE_EXPIRY = 5 * 60 * 1000; 
 
 
 export default function HomePage() {
@@ -403,8 +403,11 @@ export default function HomePage() {
       setDietPlans(data.dietPlans || []);
       setTotalPages(data.pagination?.totalPages || 1);
 
-      // Save to cache
-      setCachedData(search, page, data);
+     // Only save to cache if we have valid data
+      if (data.dietPlans && data.dietPlans.length > 0) {
+        setCachedData(search, page, data);
+      }
+
     } catch (error) {
       console.error("Error fetching diet plans:", error);
       toast.error("Failed to load diet plans");
