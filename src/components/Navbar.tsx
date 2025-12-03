@@ -237,6 +237,17 @@ export default function Navbar() {
                   </div>
                 </div>
               </div>
+
+              <button
+                onClick={() =>
+                  (window.location.href =
+                    "https://dietplans.shoppurezen.com")
+                }
+                className="relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
+              >
+                Free Diet Plans
+              </button>
+
             </div>
           </div>
 
