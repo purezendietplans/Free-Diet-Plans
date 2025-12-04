@@ -373,6 +373,9 @@ export default function Navbar() {
                 <a href="https://shoppurezen.com" className="hover:opacity-80">
                   Refer and Earn
                 </a>
+                <a href = "https://dietplans.shoppurezen.com" className="hover:opacity-80">
+                  Free Diet Plans
+                </a>
               </div>
             </div>
           </div>
